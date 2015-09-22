@@ -1,0 +1,7 @@
+{
+    "list":[
+    {"name":"Sandeep", "country":"India","subject":"Computer"},
+    {"name":"John", "country":"UK","subject":"Geography"},
+    {"name":"Miller", "country":"US","subject":"Computer"}
+    ]
+}

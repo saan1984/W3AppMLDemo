@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Students Detail</title>
+</head>
+<body>
+    <h1>Students Table</h1>
+    <div appml-data="students.json">
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Subject</th>
+        </tr>
+        <tr appml-repeat="list">
+            <td>{{name}}</td>
+            <td>{{country}}</td>
+            <td>{{subject}}</td>
+        </tr>
+    </table>
+</div>
+</body>
+    <script src="appml.js"></script>
+</html>
